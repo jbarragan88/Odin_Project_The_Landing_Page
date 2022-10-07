@@ -1,6 +1,7 @@
 body {
     background-color: white;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 header, footer{
     background-color: #1F2937;
@@ -53,7 +54,7 @@ header {
     margin-top: 0%;
     margin-bottom: 0%;
 }
-.sign_up {
+.sign_up_button {
     background-color: #3882F6;
     border: none;
     border-radius: 10px;
@@ -126,4 +127,43 @@ figcaption {
     text-align: end;
     font-size: 25px;
     font-weight: 700;
+}
+    /* Sign Up */
+#sign_up {
+    display: flex;
+    width: 70%;
+    margin: 75px auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+.sign_up_text, .sign_up_button_div {
+    margin: auto;
+}
+.sign_up_text h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #E5E7EB;
+}
+.sign_up_text p {
+    margin-top: 0;
+    font-size: 15px;
+    color: #E5E7EB;
+}
+.sign_up_button_div button {
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+}
+/* FOOTER */
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+footer p{
+    margin-bottom: 0;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 15px;
 }
